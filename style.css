@@ -142,3 +142,20 @@ body {
     margin-bottom: 10px;
 }
 
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    max-width: 640px;
+    margin: 20px auto;
+}
+
+.drug-image {
+    width: 100%;
+    height: auto;
+    border: 3px solid #555;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+
